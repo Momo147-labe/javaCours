@@ -20,6 +20,7 @@ Exercice 3 : Différence et produit
 Calculer et afficher :
 - leur différence
 - leur produit
+- leur quotient
 
 --------------------------------------------------
 
