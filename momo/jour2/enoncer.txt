@@ -1,0 +1,106 @@
+==============================
+EXERCICES JAVA - JOUR 2
+Variables, Types, Scanner et Calculs
+==============================
+
+Exercice 1 : Saisie de l’âge
+Écrire un programme Java qui demande à l’utilisateur de saisir son âge à l’aide de Scanner.
+Le programme doit ensuite afficher l’âge saisi.
+
+--------------------------------------------------
+
+Exercice 2 : Somme de deux entiers
+Écrire un programme qui demande à l’utilisateur de saisir deux nombres entiers.
+Calculer puis afficher leur somme.
+
+--------------------------------------------------
+
+Exercice 3 : Différence et produit
+Écrire un programme qui demande à l’utilisateur de saisir deux nombres entiers.
+Calculer et afficher :
+- leur différence
+- leur produit
+
+--------------------------------------------------
+
+Exercice 4 : Moyenne de trois notes
+Écrire un programme qui demande à l’utilisateur de saisir trois notes de type double.
+Calculer et afficher la moyenne des trois notes.
+
+--------------------------------------------------
+
+Exercice 5 : Aire d’un rectangle
+Écrire un programme qui demande à l’utilisateur de saisir la longueur et la largeur d’un rectangle.
+Calculer et afficher son aire.
+
+Formule :
+Aire = longueur × largeur
+
+--------------------------------------------------
+
+Exercice 6 : Périmètre d’un rectangle
+Écrire un programme qui demande la longueur et la largeur d’un rectangle.
+Calculer et afficher le périmètre.
+
+Formule :
+P = 2 × (longueur + largeur)
+
+--------------------------------------------------
+
+Exercice 7 : Aire d’un cercle
+Écrire un programme qui demande à l’utilisateur de saisir le rayon d’un cercle.
+Déclarer une constante PI avec final.
+Calculer et afficher l’aire du cercle.
+
+Formule :
+Aire = PI × rayon × rayon
+
+--------------------------------------------------
+
+Exercice 8 : Prix TTC
+Écrire un programme qui demande à l’utilisateur de saisir :
+- le prix hors taxe
+- le taux de TVA
+
+Calculer et afficher le prix toutes taxes comprises.
+
+Formule :
+TTC = HT + (HT × TVA / 100)
+
+--------------------------------------------------
+
+Exercice 9 : Conversion en Celsius
+Écrire un programme qui demande une température en degrés Celsius.
+Calculer et afficher la température en Fahrenheit.
+
+Formule :
+F = (C × 9 / 5) + 32
+
+--------------------------------------------------
+
+Exercice 10 : Information d’un étudiant
+Écrire un programme qui demande à l’utilisateur de saisir :
+- son nom
+- son âge
+- sa moyenne
+- s’il est admis (true ou false)
+
+Afficher toutes les informations.
+
+--------------------------------------------------
+
+Exercice 11 : Comparaison de deux nombres
+Écrire un programme qui demande deux entiers.
+Afficher si le premier nombre est supérieur au deuxième.
+
+Le résultat doit être stocké dans un boolean.
+
+--------------------------------------------------
+
+Exercice 12 : Mini calculatrice
+Écrire un programme qui demande deux nombres.
+Afficher :
+- la somme
+- la différence
+- le produit
+- le quotient
