@@ -1,0 +1,148 @@
+==============================
+RÉSUMÉ - JOUR 3 : CONDITIONS EN JAVA
+==============================
+
+1) if / else
+Le bloc if permet d’exécuter une instruction si une condition est vraie.
+
+Syntaxe :
+
+if (condition) {
+    instruction;
+}
+
+Exemple :
+if (age >= 18) {
+    System.out.println("Majeur");
+}
+
+Le bloc else s’exécute lorsque la condition est fausse.
+
+Syntaxe :
+
+if (condition) {
+    instruction1;
+} else {
+    instruction2;
+}
+
+Exemple :
+if (note >= 10) {
+    System.out.println("Admis");
+} else {
+    System.out.println("Ajourné");
+}
+
+--------------------------------------------------
+
+2) else if
+Utilisé pour tester plusieurs conditions.
+
+Syntaxe :
+
+if (condition1) {
+    ...
+} else if (condition2) {
+    ...
+} else {
+    ...
+}
+
+Exemple :
+if (note >= 16) {
+    System.out.println("Excellent");
+} else if (note >= 14) {
+    System.out.println("Bien");
+} else {
+    System.out.println("Insuffisant");
+}
+
+--------------------------------------------------
+
+3) switch
+Le switch permet de choisir une action selon une valeur.
+
+Syntaxe :
+
+switch (variable) {
+    case valeur1:
+        instruction1;
+        break;
+    case valeur2:
+        instruction2;
+        break;
+    default:
+        instruction par défaut;
+}
+
+Exemple :
+switch (jour) {
+    case 1:
+        System.out.println("Lundi");
+        break;
+    case 2:
+        System.out.println("Mardi");
+        break;
+    default:
+        System.out.println("Jour invalide");
+}
+
+Le break est important pour arrêter le switch après le cas trouvé.
+
+--------------------------------------------------
+
+4) Opérateurs de comparaison
+Ils servent à comparer des valeurs.
+
+==   égal à
+!=   différent de
+>    supérieur à
+<    inférieur à
+>=   supérieur ou égal à
+<=   inférieur ou égal à
+
+Exemple :
+if (a > b)
+
+--------------------------------------------------
+
+5) Opérateurs logiques
+
+&&  ET logique
+La condition est vraie si les deux conditions sont vraies.
+
+Exemple :
+if (age >= 18 && autorisation == true)
+
+||  OU logique
+La condition est vraie si au moins une condition est vraie.
+
+Exemple :
+if (premium == true || coupon == true)
+
+!   NON logique
+Inverse la valeur booléenne.
+
+Exemple :
+if (!estConnecte)
+
+--------------------------------------------------
+
+6) Exemple complet
+
+if (age >= 18 && carte == true) {
+    System.out.println("Accès autorisé");
+} else {
+    System.out.println("Accès refusé");
+}
+
+--------------------------------------------------
+
+7) À retenir
+- if : une condition
+- if / else : deux choix
+- else if : plusieurs choix
+- switch : plusieurs cas selon une valeur
+- && : ET
+- || : OU
+- ! : NON

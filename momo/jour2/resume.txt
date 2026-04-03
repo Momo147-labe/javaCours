@@ -1,0 +1,96 @@
+==============================
+RÉSUMÉ - JOUR 2 : VARIABLES ET TYPES EN JAVA
+==============================
+
+1) Types de base
+
+- **int** : nombre entier
+  Exemple :
+  int age = 20;
+
+- **double** : nombre décimal
+  Exemple :
+  double taille = 1.75;
+
+- **boolean** : vrai/faux
+  Exemple :
+  boolean etudiant = true;
+
+- **String** : texte
+  Exemple :
+  String nom = "Alice";
+
+--------------------------------------------------
+
+2) Constantes avec final
+
+- Une constante ne peut pas changer de valeur après sa déclaration.
+- Syntaxe :
+final type NOM_CONSTANTE = valeur;
+
+Exemple :
+final double PI = 3.14;
+
+--------------------------------------------------
+
+3) Déclaration et affectation
+
+- Déclaration : type nomVariable;
+- Affectation : nomVariable = valeur;
+
+Exemple :
+int score; // déclaration
+score = 10; // affectation
+
+--------------------------------------------------
+
+4) Différence Java vs JavaScript
+
+| Caractéristique      | Java                | JavaScript            |
+|---------------------|-------------------|----------------------|
+| Typage              | fort, statique     | faible, dynamique    |
+| Exemple             | int x = 10; x="hi"; // erreur | let x = 10; x="hi"; // ok |
+
+- En Java, le type d’une variable est fixe.
+- En JavaScript, le type peut changer à l’exécution.
+
+--------------------------------------------------
+
+5) Conversion de types
+
+- Conversion automatique : int → double
+  Exemple :
+  int a = 5;
+  double b = 2.5;
+  double c = a + b; // 7.5
+
+- Conversion manuelle (cast) :
+  double d = 3.14;
+  int e = (int) d; // 3
+
+--------------------------------------------------
+
+6) Opérations de base
+
+- Addition : +
+- Soustraction : -
+- Multiplication : *
+- Division : /
+- Modulo : %
+
+Exemple :
+int a = 10, b = 3;
+int reste = a % b; // 1
+
+--------------------------------------------------
+
+7) Utilisation de Scanner pour saisir des données
+
+```java
+import java.util.Scanner;
+Scanner sc = new Scanner(System.in);
+
+int age = sc.nextInt();
+double taille = sc.nextDouble();
+String nom = sc.nextLine();
+boolean etudiant = sc.nextBoolean();

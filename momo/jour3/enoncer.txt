@@ -1,0 +1,129 @@
+==============================
+EXERCICES JAVA - JOUR 3
+Conditions
+if / else, switch, opérateurs logiques
+==============================
+
+Exercice 1 : Nombre positif ou négatif
+Écrire un programme qui demande à l’utilisateur de saisir un entier.
+Utiliser if / else pour afficher si le nombre est :
+- positif
+- négatif
+- nul
+
+--------------------------------------------------
+
+Exercice 2 : Nombre pair ou impair
+Écrire un programme qui demande un entier à l’utilisateur.
+Utiliser une condition pour vérifier si le nombre est pair ou impair.
+Afficher le résultat.
+
+--------------------------------------------------
+
+Exercice 3 : Majeur ou mineur
+Écrire un programme qui demande l’âge de l’utilisateur.
+Utiliser if / else pour afficher :
+- "Majeur" si l’âge est supérieur ou égal à 18
+- "Mineur" sinon
+
+--------------------------------------------------
+
+Exercice 4 : Réussite à un examen
+Écrire un programme qui demande la note d’un étudiant.
+Si la note est supérieure ou égale à 10, afficher "Admis".
+Sinon, afficher "Ajourné".
+
+--------------------------------------------------
+
+Exercice 5 : Comparaison de deux nombres
+Écrire un programme qui demande deux entiers.
+Utiliser if / else pour afficher :
+- le plus grand nombre
+- ou "Ils sont égaux"
+
+--------------------------------------------------
+
+Exercice 6 : Vérification avec opérateur &&
+Écrire un programme qui demande :
+- l’âge
+- si la personne possède une carte d’étudiant (true/false)
+
+Afficher "Réduction accordée" si :
+- l’âge est inférieur à 26
+ET
+- la carte est valide
+
+Utiliser l’opérateur logique &&.
+
+--------------------------------------------------
+
+Exercice 7 : Vérification avec opérateur ||
+Écrire un programme qui demande :
+- si la personne est membre premium (true/false)
+- si elle possède un coupon (true/false)
+
+Afficher "Accès autorisé" si au moins une des deux conditions est vraie.
+
+Utiliser l’opérateur logique ||.
+
+--------------------------------------------------
+
+Exercice 8 : Calculatrice simple avec switch
+Écrire un programme qui demande :
+- deux nombres
+- un opérateur (+, -, *, /)
+
+Utiliser switch pour effectuer l’opération correspondante.
+
+Afficher le résultat.
+
+--------------------------------------------------
+
+Exercice 9 : Jour de la semaine
+Écrire un programme qui demande un nombre entre 1 et 7.
+Utiliser switch pour afficher le jour correspondant.
+
+Exemple :
+1 = Lundi
+2 = Mardi
+...
+7 = Dimanche
+
+--------------------------------------------------
+
+Exercice 10 : Menu d’options
+Écrire un programme qui affiche le menu suivant :
+
+1. Ajouter
+2. Supprimer
+3. Modifier
+4. Quitter
+
+Demander le choix de l’utilisateur.
+Utiliser switch pour afficher l’action choisie.
+
+--------------------------------------------------
+
+Exercice 11 : Vérification d’accès
+Écrire un programme qui demande :
+- l’âge
+- si la personne possède une autorisation (true/false)
+
+Afficher "Accès autorisé" uniquement si :
+- l’âge est supérieur ou égal à 18
+ET
+- l’autorisation est vraie
+
+Sinon afficher "Accès refusé".
+
+--------------------------------------------------
+
+Exercice 12 : Mention selon la note
+Écrire un programme qui demande une note.
+Utiliser plusieurs if / else if / else pour afficher :
+
+- Excellent si note >= 16
+- Bien si note >= 14
+- Assez bien si note >= 12
+- Passable si note >= 10
+- Échec sinon
